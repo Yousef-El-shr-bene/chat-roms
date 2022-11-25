@@ -1,0 +1,50 @@
+.barnt-{
+    height: 100vh;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-div{
+    /* background-color: cornflowerblue; */
+    height: 60%;
+    width: 50%;
+    border-radius: 15px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.h1{
+    margin-bottom: 5vh;
+    font-size: 6vw;
+}
+.box-div input{
+    margin: 5px;
+    width: 50%;
+}
+.box-div a{
+    background-color: forestgreen;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+    width: 10vw;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}
+.box-div a:hover{
+    padding: 10px 15px 10px 15px;
+}
+.warning{
+    color: red;
+    background-color: aliceblue;
+    margin: 5px;
+}
